@@ -14,7 +14,8 @@ const CV = () => {
         <div className="relative w-full mb-8">
           
         <iframe
-            src="../../Image/Salah Mohamed Resume.pdf" 
+            src="https://drive.google.com/file/d/1I_dMYExCcPxr7VnNBSjHweadfevOEHEH/preview" 
+            typeof='pdf'
             className="w-full h-[600px] border-2 border-gray-300 rounded-lg"
             title="My CV"
           />
