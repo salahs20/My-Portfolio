@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -102,7 +102,7 @@ const ContactUs = () => {
           <div className="flex justify-center space-x-6">
             {/* Social Media Links */}
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/profile.php?id=100050629513668"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-700"
@@ -110,15 +110,15 @@ const ContactUs = () => {
               <FaFacebook size={30} />
             </a>
             <a
-              href="https://www.twitter.com"
+              href="https://www.instagram.com/salah.mohamed.20/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-700"
             >
-              <FaTwitter size={30} />
+              <FaInstagram size={30} />
             </a>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/salah-mohamed-883499217/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-700"
@@ -126,7 +126,7 @@ const ContactUs = () => {
               <FaLinkedin size={30} />
             </a>
             <a
-              href="https://www.github.com"
+              href="https://github.com/salahs20"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-700"
