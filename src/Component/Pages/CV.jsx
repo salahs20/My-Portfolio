@@ -24,7 +24,7 @@ const CV = () => {
         {/* Download Button */}
         <div className="flex justify-center mt-6">
           <a
-            href="https://drive.google.com/file/d/1I_dMYExCcPxr7VnNBSjHweadfevOEHEH/view?usp=sharing" // Make sure the path is correct for download
+            href="https://drive.google.com/file/d/1I_dMYExCcPxr7VnNBSjHweadfevOEHEH/view?usp=drivesdk" // Make sure the path is correct for download
             download
             className="flex items-center bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition-all"
           >
