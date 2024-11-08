@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="w-full py-6 border-t bg-transparent text-center md:text-left container mx-auto">
       <div className="flex flex-col md:flex-row justify-between items-center gap-y-4 md:gap-x-8">
         <Typography color="blue-gray" className="font-normal text-sm">
-          &copy; 2024 Salah Mohamed. All Rights Reserved.
+          &copy; 2024 Salah Mohamed.
         </Typography>
         <ul className="flex flex-wrap items-center gap-x-6 gap-y-2">
           <li>

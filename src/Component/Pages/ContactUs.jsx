@@ -138,8 +138,8 @@ const ContactUs = () => {
 
         <div className="mt-10 text-center">
           <p className="text-gray-600">
-            <strong>Email:</strong> your.email@example.com <br />
-            <strong>Phone:</strong> +1234567890
+            <strong>Email:</strong>salahelzeini@gmail.com <br />
+            <strong>Phone:</strong> +201126250856
           </p>
         </div>
       </div>
