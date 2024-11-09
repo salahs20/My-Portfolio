@@ -14,11 +14,13 @@ const Projects = () => {
             Project 1: Portfolio Website
           </h2>
           <div className="mb-4">
-            <img
-              src={project_1_photo} // Replace with your project image link
-              alt="Portfolio Website"
-              className="w-full h-60 object-cover rounded-lg mb-4"
-            />
+            <a href="https://salah-mohamed.vercel.app/">
+              <img
+                src={project_1_photo} // Replace with your project image link
+                alt="Portfolio Website"
+                className="w-full h-60 object-cover rounded-lg mb-4"
+              />
+            </a>
           </div>
           <p className="text-lg mb-4">
             A personal portfolio website to showcase my skills, projects, and
@@ -30,14 +32,6 @@ const Projects = () => {
             Tailwind CSS
           </p>
           <div className="flex justify-between">
-            <a
-              href="https://salah-mohamed.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-700 font-medium"
-            >
-              View Project
-            </a>
             <a
               href="https://github.com/salahs20/My-Portfolio"
               target="_blank"
@@ -55,11 +49,13 @@ const Projects = () => {
             Project 2: E-Commerce App
           </h2>
           <div className="mb-4">
-            <img
-              src={project_2_photo} // Replace with your project image link
-              alt="E-Commerce App"
-              className="w-full h-60 object-cover rounded-lg mb-4"
-            />
+            <a href="https://fresh-cart-lovat.vercel.app/">
+              <img
+                src={project_2_photo} // Replace with your project image link
+                alt="E-Commerce App"
+                className="w-full h-60 object-cover rounded-lg mb-4"
+              />
+            </a>
           </div>
           <p className="text-lg mb-4">
             A fully functional e-commerce website that allows users to browse
@@ -72,14 +68,6 @@ const Projects = () => {
           </p>
           <div className="flex justify-between">
             <a
-              href="https://fresh-cart-lovat.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-700 font-medium"
-            >
-              View Project
-            </a>
-            <a
               href="https://github.com/salahs20/Fresh-Cart"
               target="_blank"
               rel="noopener noreferrer"
@@ -89,7 +77,6 @@ const Projects = () => {
             </a>
           </div>
         </div>
-
         {/* Project 3 */}
         <div className="mb-8">
           <h2 className="text-2xl font-semibold text-blue-500 mb-2">
@@ -112,14 +99,6 @@ const Projects = () => {
             JavaScript
           </p>
           <div className="flex justify-between">
-            <a
-              href="https://your-task-app-link.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-700 font-medium"
-            >
-              View Project
-            </a>
             <a
               href="https://github.com/yourusername/task-manager"
               target="_blank"
