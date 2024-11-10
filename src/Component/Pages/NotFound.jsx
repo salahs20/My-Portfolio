@@ -21,18 +21,3 @@ const NotFound = () => {
 export default NotFound;
 
 
-
-
-// import React from 'react'
-
-// const NotFound = () => {
-//   return (
-//     <div className="flex items-center justify-center h-screen">
-//     <div className="bg-blue-500 text-white p-4 rounded-lg mx-auto">
-//       Not Found
-//     </div>
-//   </div>
-//   )
-// }
-
-// export default NotFound
