@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaDownload } from 'react-icons/fa'; // For download icon
-import pdf from '../../Image/Salah Mohamed Resume .jpeg'
 const CV = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 p-6 pt-[5.5rem]">
@@ -11,10 +10,15 @@ const CV = () => {
         </h1>
         
         {/* PDF Viewer Section */}
-        <div className="relative w-full mb-8">
+        <div className="pdf-container" style={{ height: "100vh", width: "100%" }}>
           
-          <a href="https://drive.google.com/file/d/1I_dMYExCcPxr7VnNBSjHweadfevOEHEH/view?usp=drivesdk"><img src={pdf} alt="CV" /> </a>
-          
+        <iframe
+        src="https://drive.google.com/file/d/1I_dMYExCcPxr7VnNBSjHweadfevOEHEH/preview"
+        title="PDF Viewer"
+        width="100%"
+        height="100%"
+        style={{ border: "none" }}
+      />
        
         </div>
 
